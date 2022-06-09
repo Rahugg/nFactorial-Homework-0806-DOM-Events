@@ -1,0 +1,160 @@
+ /*CENTRALIZE THE BUTTON*/
+.centralize{
+     position: absolute;
+     left: 30%;
+     top: 90%; 
+}
+.centralize2{
+   position: absolute;
+   left:60%;
+   top:90%;
+}
+.centralize3{
+  position: absolute;
+  left:42%;
+  top:90%;
+}
+.centralize4{
+  position: absolute;
+  left:48%;
+  top:90%;
+}
+.centralize5{
+  position: absolute;
+  left:54%;
+  top:90%;
+}
+/* MY VIDEO */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width:100%;
+  }
+  
+/* BUTTONS */
+
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  #myBtn2 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  #myBtn3 {
+    width: 90px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background: #03f5a4;
+    color: black;
+    cursor: pointer;
+  }
+  #myBtn4 {
+    width: 90px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background: #03f5a4;
+    color: black;
+    cursor: pointer;
+  }
+  #myBtn5 {
+    width: 90px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background: #03f5a4;
+    color: black;
+    cursor: pointer;
+  }
+
+  /* HOVERS */
+
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  #myBtn2:hover {
+    background: #ddd;
+    color: black;
+  }
+  #myBtn3:hover {
+    background: #ddd;
+    color: black;
+  }
+  #myBtn4:hover {
+    background: #ddd;
+    color: black;
+  }
+  #myBtn5:hover {
+    background: #ddd;
+    color: black;
+  }  
+
+  /* PROGRESS BAR */
+
+  .progress-bar {
+    width:100%;
+    grid-area: four;
+    display:flex;
+    position: absolute;
+    top:97%;
+    left:21.5%;
+  }
+  
+  #progressBar {
+    appearance: none;
+    height: 5px;
+    background: black;
+    width: 57.5%;
+    outline: none;
+    z-index:999999;
+    border-radius: 30px;
+  }
+  
+  #progressBar::-webkit-slider-thumb {
+    appearance: none;
+    height: 11px;
+    width: 11px;
+    outline: none;
+    background: #f94c57;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .track-time {
+    grid-area: five;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  #currentTime {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  #durationTime {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: #f94c57;
+    text-shadow: 0 0 15px white;
+  }
